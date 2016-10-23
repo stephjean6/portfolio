@@ -1,0 +1,99 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+}
+body {
+  background-color: beige;
+}
+nav {
+  text-align: right;
+}
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #91ABB3;
+  color: navy;
+  margin-left: 20px;
+}
+h2 {
+  color: coral;
+}
+h3{
+  background-color: lightgreen;
+  color: navy;
+  width: 340px;
+}
+h4 {
+  color: navy;
+  font-style: italic;
+}
+p{
+  margin: 20px;
+  font-family: Georgia, Times, serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: justify;
+  color: darkslategray;
+}
+a {
+  padding-right: 20px;
+}
+a:link {
+  color: coral;
+  text-decoration: none;
+}
+a:visited {
+  color: darkblue;
+}
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+a:active {
+  color: chocolate
+}
+strong {
+  color: green;
+  font-style: italic;
+}
+figure {
+  font-size: 0.75em; 
+  text-align: center;
+}
+aside {
+  background-color: lightgreen;
+  border: .25px solid darkslategray;
+}
+aside ol {
+  list-style-type: square;
+  margin: 100;
+  padding: 100;
+  width: 300px;
+}
+img:hover {
+  opacity: 0.6;
+}
+li {
+  padding: 0.25em;
+  font-family: Georgia, Times, serif;
+  font-size: 10pt;
+  color: green;
+  text-transform: uppercase;
+}
+ol img {
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+  padding: 10px
+}
+footer {
+  border: .5px solid darkslategray;
+  font-size: 8pt;
+  text-transform: uppercase;
+  background-color: coral; 
+}
+
+
+
+
+
+
