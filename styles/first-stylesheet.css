@@ -1,98 +1,119 @@
-* {
-  font-family: Arial, Verdana, sans-serif;
+html {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+* {box-sizing: border-box;
 }
 body {
-  background-color: beige;
+  margin: 0;
 }
-nav {
-  text-align: right;
+header {
+  background-color: #14208C;
+  font-size: 2rem;
+  height: 30%;
+  width: 100%;
+  padding: 1em;
+  border: 0;
 }
 h1 {
   font-size: 3em;
   text-transform: uppercase;
-  text-shadow: 2px 2px #91ABB3;
-  color: navy;
-  margin-left: 20px;
+  text-align: center;
+  color: #FD6501;
+}
+nav {
+  text-align: right;
+  background-color: #454545;
+  width: 100%;
+  padding: 1em;
+  height: 10%
+}
+nav a {
+  color: #FDD544;
+}
+article {
+  float: left;
+  width: 65%;
+  padding: 2em;
 }
 h2 {
-  color: coral;
+  color: #FD6501;
+  font-weight: bolder;
+  font-size: 20pt;
+  text-decoration-style: wavy;
 }
-h3{
-  background-color: lightgreen;
-  color: navy;
-  width: 340px;
-}
-h4 {
-  color: navy;
-  font-style: italic;
-}
-p{
-  margin: 20px;
-  font-family: Georgia, Times, serif;
-  font-size: 1em;
-  line-height: 1.5em;
-  text-align: justify;
-  color: darkslategray;
-}
-a {
+li a {
   padding-right: 20px;
 }
-a:link {
-  color: coral;
+li a:link {
+  color: #FD6501;
   text-decoration: none;
 }
-a:visited {
-  color: darkblue;
-}
-a:hover {
-  color: green;
+li a:hover {
+  color: #00CFC7;
   text-decoration: underline;
 }
-a:active {
-  color: chocolate
-}
-strong {
-  color: green;
-  font-style: italic;
-}
-figure {
-  font-size: 0.75em; 
-  text-align: center;
-}
 aside {
-  background-color: lightgreen;
-  border: .25px solid darkslategray;
+  background-color: #FDD544;
+  padding: 2em;
+  float: right;
+  width: 35%;
 }
 aside ol {
   list-style-type: square;
   margin: 100;
   padding: 100;
-  width: 300px;
 }
-img:hover {
-  opacity: 0.6;
+aside li {
+  font-weight: bold;
+}
+aside h3 {
+  text-transform: uppercase;
+}
+figure {
+  font-size: 0.75em; 
+  text-align: left;
+  overflow: hidden;
+  width: relative;
+  height: relative;
 }
 li {
   padding: 0.25em;
-  font-family: Georgia, Times, serif;
-  font-size: 10pt;
-  color: green;
-  text-transform: uppercase;
+  font-size: 14pt;
+  color: #454545;
 }
-ol img {
-  height: 50px;
-  width: 50px;
+li img {
+  width: 175px;
+  height: 175px;
   vertical-align: middle;
   padding: 10px
 }
-footer {
-  border: .5px solid darkslategray;
-  font-size: 8pt;
-  text-transform: uppercase;
-  background-color: coral; 
+img:hover {
+  opacity: 0.6;
+  width: auto;
 }
-
-
+footer {
+  font-size: 8pt;
+  height: 15%; 
+  width: 100%;  
+  text-transform: uppercase;
+  text-align: center;
+  color: #FDD544;
+  background-color: #00CFC7;
+  clear: both;
+  padding: 1em;
+  border: 0;
+}
+footer ul {
+  list-style-type: none;
+  font-size: 14pt;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
 
 
 
