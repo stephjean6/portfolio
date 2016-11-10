@@ -33,7 +33,7 @@ nav a {
 }
 article {
   float: left;
-  width: 65%;
+  width: 55%;
   padding: 2em;
 }
 h2 {
@@ -52,23 +52,6 @@ li a:link {
 li a:hover {
   color: #00CFC7;
   text-decoration: underline;
-}
-aside {
-  background-color: #FDD544;
-  padding: 2em;
-  float: right;
-  width: 35%;
-}
-aside ol {
-  list-style-type: square;
-  margin: 100;
-  padding: 100;
-}
-aside li {
-  font-weight: bold;
-}
-aside h3 {
-  text-transform: uppercase;
 }
 figure {
   font-size: 0.75em; 
@@ -92,8 +75,25 @@ img:hover {
   opacity: 0.6;
   width: auto;
 }
+aside {
+  background-color: #FDD544;
+  padding: 2em;
+  float: right;
+  width: 35%;
+}
+aside ol {
+  list-style-type: square;
+  margin: 100;
+  padding: 100;
+}
+aside li {
+  font-weight: bold;
+}
+aside h3 {
+  text-transform: uppercase;
+}
 footer {
-  font-size: 8pt;
+  font-size: 10pt;
   height: 15%; 
   width: 100%;  
   text-transform: uppercase;
