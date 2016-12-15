@@ -2,49 +2,84 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      img {
+        max-width: 100%;
+        }
+    </style>
     <title>About Boomer</title>
+    <link rel="normalize" type="normalized/css" href="styles/normalize.css">
+<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   </head>
   <body>
-    <article>
-      <h1>A Bit About Boomer</h1>
-           
-      <p>Boomer's real name is Josh.  He is a seven-year-old, special-needs boy who lives in Bellevue, Washington with his family. He was born on a beautiful day in October 2009.</p>
-      
-      <p>His dad really wanted his legal name to be Boomer, but his mom preferred a more traditional name.  So they agreed that Boomer would be his nickname.</p>
-      
-      <h3>Boomer's Special Needs</h3>
-      <p>Special needs come in a variety of shapes and sizes.  Boomer is one of 1000 children worldwide who has Cohen Syndrome. This means that Boomer has a variety of physical disabilities and developmental delays, but those limitations don't stop him from being a cheerful, curious, and friendly little boy.</p>
-      <aside>
-        <h4>
-          <a href="http://cohen-syndrome.org/" target="blank">Cohen Syndrome</a>
-        </h4>
-        <p>Cohen Syndrome is a rare genetic syndrome that causes multiple physical disabilities and developmental delays.</p>
-      </aside>
-      
-      <h3>Boomer's Family</h3>
-      <img src="images/Bellevue-to-Rainier.JPG" alt="Boomer's Hometown">      
-      <ul>
-        <li>Steve, his 44-year-old dad</li>
-        <li>Steph, his 42-year-old mom</li>
-        <li>Katie, his five-year-old, little sister</li>
+    <div class ="container">
+    <header>
+      <div class="page-header">
+        <img src="images/JoshSchool.jpg" class="img-responsive" alt="Josh age 7">
+        <h1>All About Boomer</h1>
+      </div>
+    </header>                                     
+    <nav> 
+      <ul class="nav nav-pills">
+        <li role="presentation"><a href="projects.html">Home</a></li>
+        <li role="presentation" class="active"><a href="Boomer.html">Boomer</a></li> 
       </ul>
-    
-      <h3>Boomer's Top-Three Favorite TV Shows</h3>
-      <ol>
-        <li>
-          <a href="https://www.jeopardy.com/" target="blank">Jeopardy</a>
-        </li>
-        <li>
-          <a href ="http://www.wheeloffortune.com/" target="blank">Wheel of Fortune</a>
-        </li>
-        <li> 
-          <a href ="http://pbskids.org/curiousgeorge/" target ="blank">Curious George</a>
-        </li>
-      </ol>
-      <hr>
-      <footer>
-        Copyright Steph Collier, 2016
-      </footer>
-    </article>
+    </nav>
+    <article>
+      <h3>Boomer 101</h3>
+        <p>Boomer's real name is Josh.  He is a seven-year-old, special-needs boy who lives in Bellevue, Washington with his family. He was born on a beautiful day in October 2009.</p>
+        <p>His dad really wanted his legal name to be Boomer, but his mom preferred a more taraditional name.  So they agreed that Boomer would be his nickname.</p>
+      <h3>Josh Collier</h3>
+        <p>Josh is a fantastic first-grader. He loves going to school and makes friends easily.</p>
+        <p>Coach O is his favorite teacher.  Coach O, as you can imagine, teaches physical education. Josh LOVES to ride scooters in gym class, and also enjoys running under the parachute. When he plays outside, Boomer enjoys running on the playground and swinging on the playset.</p>
+      <h3>Boomer's Special Needs</h3>
+        <p>Special needs come in a variety of shapes and sizes.  Boomer is one of 1000 children worldwide who has Cohen Syndrome. This means that Boomer has a variety of physical disabilities and developmental delays, but those limitations don't stop him from being a cheerful, curious, and friendly little boy.</p> 
+      <div class="row">
+        <div class="col-xs-6 col-md-4">
+          <figure><img src="images/JoshBDay2016.jpg" alt="Josh playing on an iPad for his birthday.">  
+          <figcaption>Josh playing on an iPad for his birthday.</figcaption>  
+          </figure>
+          <h3>Boomer's 7th Birthday</h3>
+            <p>Boomer really enjoys playing on his iPad, which he also uses to talk! He plays alphabet and number games, and especially likes to make art.  Boomer really enjoys crayons and markers.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-4">
+          <figure><img src="images/JoshSwing.jpg" alt="Josh swinging.">  
+          <figcaption>Boomer swinging.</figcaption>  
+          </figure>
+          <h3>Boomer on a Swing!</h3>
+           <p>Boomer's most favorite activity is swinging. He enjoys swinging high and low, fast and slow. He loves porch swings, tire swings, playground swings and hammock swings!</p>
+        </div>
+      </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <h3>Boomer's Family</h3>   
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-success">Steve, his 44-year-old dad</li>
+        <li class="list-group-item list-group-item-info">Steph, his 42-year-old mom</li>
+        <li class="list-group-item list-group-item-warning">Katie, his five-year-old, little sister</li>
+        <li class="list-group-item list-group-item-danger">Jean, his 79-year-old grandma</li>
+      </ul>
+        <div class="row">
+          <div class="col-md-4">
+            <footer>
+            Copyright Boomer Productions, 2016
+            </footer>
+          </div>
+        </div>
+      </article>
+    </div> 
   </body>
 </html>
